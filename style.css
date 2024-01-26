@@ -2,11 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #d4cece8a;
+    
 }
 
 header {
-    background-color: #333;
+    background-color: #01212e;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -22,12 +23,12 @@ section {
 }
 
 h1, h2 {
-    color: #8f8c8c;
+    color: #dcd4d4;
 }
 
 p {
     line-height: 1.6;
-    color: #555;
+    color: #ffffffd4;
 }
 
 .project {
@@ -40,3 +41,81 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
+.card-img-top {
+    margin-top: 10px;
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    margin-top: 10px;
+    height: 290px;
+    
+}
+
+.card-text{
+    color: #333;
+}
+
+.custom-img-size{
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.git-btn{
+    background-color: #1C2128;
+    border-color: #1C2128;
+}
+
+.git-btn:hover{
+    background-color: #39414b;
+    border-color: #39414b;
+}
+
+.insta-btn{
+    background-color: #E1306C;
+    border-color: #E1306C;
+}
+
+.insta-btn:hover{
+    background-color: #ff0055;
+    border-color: #ff0055;
+}
+
+.face-btn{
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.phone-icon{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+    .insta-btn{
+        margin-top: 5px;
+    }
+    .cards-row{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .cards-row{
+        margin-left: 50px;
+    }
+}
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
