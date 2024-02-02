@@ -2,17 +2,21 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d4cece8a;
+    background-color: #f1f0e9;
+    
     
 }
 
 header {
-    background-color: #01212e;
+    background-color: #00161f;
     color: #fff;
     text-align: center;
     padding: 1em 0;
 }
 
+footer{
+    background-color: #01212e;
+}
 section {
     max-width: 800px;
     margin: 2em auto;
@@ -53,7 +57,8 @@ footer {
 .card{
     margin-top: 10px;
     height: 290px;
-    
+    box-shadow: 5px 5px 10px #888888;
+
 }
 
 .card-text{
@@ -119,3 +124,13 @@ footer {
     margin-right: auto;
 }
 
+.main-title{
+    text-align: center;
+    margin-top: 20px;
+    color: #1C2128;
+}
+
+h3{
+    margin-top: 40px;
+    text-align: center;
+}
