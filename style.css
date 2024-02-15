@@ -2,8 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f0e9;
-    
+    background-color: #e9eaf1;
     
 }
 
@@ -12,6 +11,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    font-size: large;
 }
 
 footer{
@@ -32,7 +32,10 @@ h1, h2 {
 
 p {
     line-height: 1.6;
-    color: #ffffffd4;
+    color: #000000d4;
+}
+.clearfix p{
+    color: white;
 }
 
 .project {
