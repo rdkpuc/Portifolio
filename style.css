@@ -137,3 +137,9 @@ h3{
     margin-top: 40px;
     text-align: center;
 }
+
+.buttons-back button{
+    display: flex;
+    align-content: center;
+    margin-top: 5px;
+}
